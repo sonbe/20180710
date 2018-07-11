@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 var $videoSrc;  
 $('.video-btn').click(function() {
-    $videoSrc = $(this).data( "data-src" );
+    $videoSrc = $(this).data( "src" );
 });
 console.log($videoSrc);
 
