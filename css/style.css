@@ -50,7 +50,28 @@ body {margin:2rem;}
   opacity:1;
 }
 
-.item-card .overlay, .movie-card .item-card img {
+.movie-card .item-card .overlay, .movie-card .item-card img {
     border-radius: 6px;
 }
 
+.movie-card .item-card .overlay {
+    justify-content: space-between;
+    padding: 15px 10px;
+    background: rgba(0,0,0,.8);
+}
+
+.item-card .overlay {
+    transition: opacity .3s;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0,0,0,.6);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
