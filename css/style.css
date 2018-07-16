@@ -49,3 +49,8 @@ body {margin:2rem;}
   color:#fff;
   opacity:1;
 }
+
+.item-card .overlay, .movie-card .item-card img {
+    border-radius: 6px;
+}
+
