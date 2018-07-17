@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--img trriger modal1 ST -->
+  <a class="item-card"  data-toggle="modal" href="#myModal1">
+      <div class="overlay ov-show">
+        <div class="description">
+              Prince Akeem, heir to the throne of Zamunda, leaves the tropical paradise kingdom in search of his queen. What better place than Queens, New York to find his bride? Joined by his loyal servant and friend, Semmi, Akeem attempts to blend in as an ordinary American and begin his search.
+        </div>
+        <div class="info">
+          <i class="zmdi zmdi-info"></i> More info
+        </div>
+      </div>
+      <img src="./images/01.jpg">
+    </a>    
+<!--img trriger modal1 ED -->
+
+<!-- modal1 ST -->
+<div id="mymodal1" class="modal fade" role="dialog" style="z-index: 1400;">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-body">
+      	<button type="button" class="btn btn-info btn-lg" data-toggle="modal"      data-target="#mymodal2">Trailer</button>
+        </div>      
+    </div>
+  </div>
+</div>
+<!-- modal1 ED -->
+
+
+<div id="mymodal2" class="modal fade" role="dialog" style="z-index: 1600;">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-body">
+  	<div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="" id="video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+        </div>      
+    </div>
+  </div>
+</div>
+  
+
+</body>
+</html>
