@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 window.onscroll = function() {myFunction()};
 
 const header = document.getElementById("myHeader");
@@ -10,9 +12,8 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
-$(document).ready(function() {
-
+  
+  
 // Gets the video src from the data-src on each button
 
 var $videoSrc;  
