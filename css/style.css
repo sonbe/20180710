@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+div {
+    display: block;
+}
+
 .header {
   padding: 10px 16px;
   background: #555;
@@ -35,6 +39,11 @@ h4 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .modal-dialog {
