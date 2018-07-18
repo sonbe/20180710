@@ -75,6 +75,15 @@ h4 {
     cursor: pointer;
 }
 
+.item-card {
+    width: 80px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    color: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,.04), 0 7px 16px rgba(0,0,0,.09);
+}
+
 .movie-card .item-card {
     width: 100%;
     border-radius: 6px;
