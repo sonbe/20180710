@@ -3,5 +3,5 @@ development:
   database: app
   host: localhost
   username: root
-  password: 18FSS#1@kab
+  password: root1234
   encoding: utf8
